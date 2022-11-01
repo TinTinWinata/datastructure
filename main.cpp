@@ -4,6 +4,7 @@
 #include <conio.h>
 #include "config.h"
 #include "linkedlist.cpp"
+#include "doublelinkedlist.cpp"
 
 void menu()
 {
@@ -17,6 +18,9 @@ void menu()
   {
   case 1:
     linkedlist();
+    break;
+  case 2:
+    doublelinkedlist();
     break;
   }
 }
