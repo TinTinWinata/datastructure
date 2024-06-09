@@ -16,8 +16,7 @@ class Graph {
       let res = `[${i}] : `
       for(const v of this.lists[i]){
         res += `${v} -> `;
-      }
-      console.log(res)
+      } 
     }
   }
 }
