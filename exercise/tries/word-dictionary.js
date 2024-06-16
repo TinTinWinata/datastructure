@@ -80,6 +80,3 @@ WordDictionary.prototype.search = function(word) {
  * var param_2 = obj.search(word)
  */
 
-// t.add('justine')
-
-// console.log(t.search('a'))
