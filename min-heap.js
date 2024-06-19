@@ -11,8 +11,8 @@ class MinHeap {
   getParentIdx(c){
     return Math.floor(c / 2)
   }
-  insert(v, p){
-    this.heap.push({v,p})
+  insert(v){
+    this.heap.push(v)
     this.heapifyUp()
   }
 
